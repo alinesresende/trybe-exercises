@@ -8,15 +8,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-01-unix-e-bash)
-- [X] 1.3 - Fundamentos do Desenvolvimento Web
-- [X] 1.3 - Introdução - Unix & Shell
-- [X] 1.3 - Unix & Bash - Parte 1
-- [X] 1.4 - Unix & Bash - Parte 2
+- [X] 1.1 - Unix & Bash - Parte 1
+- [X] 1.2 - Unix & Bash - Parte 2
 
 ##### Bloco 2: [Git, GitHub e Internet](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-02-git-github-e-internet)
 - [X] 2.1 - Git & GitHub  - O que é e para que serve
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
-- [X] 2.3 - Internet - Entendendo como ela funciona
 
 ##### Bloco 3: [Introdução à HTML e CSS](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-03-introducao-a-html-e-css)
 - [ ] 3.1 - Introdução - HTML & CSS
