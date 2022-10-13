@@ -166,7 +166,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 8.3 - Express com TypeScript
 - [ ] 8.4 - Projeto - Trybesmith
 
-##### Bloco 9: [Programação Orientada a Objetos (POO) e SOLID] (https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-09-programacao-orientada-a-objetos-poo-e-solid)
+##### Bloco 9: [Programação Orientada a Objetos (POO) e SOLID](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-09-programacao-orientada-a-objetos-poo-e-solid)
 - [ ] 9.1 - Introdução à Orientação a Objetos
 - [ ] 9.2 - Herança e Interfaces
 - [ ] 9.3 - Polimorfismo
@@ -174,7 +174,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 9.5 - SOLID - Princípios L e I
 - [ ] 9.1 - Projeto - Trybers and Dragons
 
-#### Bloco 10: [Projeto - TFC - Trybe Futebol Clube] (https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-10-Projeto-tfc-trybe-futebol-clube)
+#### Bloco 10: [Projeto - TFC - Trybe Futebol Clube](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-10-Projeto-tfc-trybe-futebol-clube)
 - [ ] 10.1 - Projeto - TFC - Trybe Futebol Clube
 
 ##### Bloco 11: [Introdução ao MongoDB](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-11-introducao-ao-mongodb)
@@ -190,48 +190,48 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 12.2 - Mongoose e arquitetura MSC (Camada Service e Controller)
 - [ ] 12.3 - Projeto - Car Shop
 
-#### Bloco 13: [Projeto - App de Delivery] (https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-13-projeto-app-de-delivery)
+#### Bloco 13: [Projeto - App de Delivery](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-13-projeto-app-de-delivery)
 - [ ] 13.1 - Projeto - App de Delivery
 
-#### Bloco 14: [MasterClass - VPS, CI/CD] (https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-14-masterclass-vps-ci-cd)
+#### Bloco 14: [MasterClass - VPS, CI/CD](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-14-masterclass-vps-ci-cd)
 - [ ] 14.1 - VPS
 - [ ] 14.2 - Dia 2
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 
-#### Bloco 1: [Introdução à Python] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-01-introducao-a-python)
+#### Bloco 1: [Introdução à Python](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-01-introducao-a-python)
 - [ ] 1.1 - Aprendendo Python
 - [ ] 1.2 - Entrada e Saída de Dados
 - [ ] 1.3 - Testes
 - [ ] 1.4 - Projeto - Job Insights
 
-#### Bloco 2: [Padrões de Projeto] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-02-padroes-de-projeto)
+#### Bloco 2: [Padrões de Projeto](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-02-padroes-de-projeto)
 - [ ] 2.1 - P.O.O em Python
 - [ ] 2.2 - Entrada e Saída de Dados
 - [ ] 2.3 - Padrões - Decorator, Observer, Factory
 - [ ] 2.4 - Projeto - Relatórios de Estoque
 
-#### Bloco 3: [Redes e Raspagem de Dados] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-03-rede-e-raspagem-de-dados)
+#### Bloco 3: [Redes e Raspagem de Dados](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-03-rede-e-raspagem-de-dados)
 - [ ] 3.1 - Arquitetura de redes
 - [ ] 3.2 - Raspagem de Dados
 - [ ] 3.3 - Outras Ferramentas de Raspagem de Dados
 - [ ] 3.4 - Projeto - Tech news
 
-#### Bloco 4: [Algoritmos] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-04-algoritmos)
+#### Bloco 4: [Algoritmos](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-04-algoritmos)
 - [ ] 4.1 - Complexidade de Algoritmos
 - [ ] 4.2 - Recursividade e Estratégias para solução de problemas
 - [ ] 4.3 - Algoritmos de ordenação e busca
 - [ ] 4.4 - Projeto - Algoritmos
 
-#### Bloco 5: [Estrutura de Dados I: Arrays, Listas, Filas e Pilhas] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-05-estrutura-de-dados1-arrays-listas-filas-e-pilhas)
+#### Bloco 5: [Estrutura de Dados I: Arrays, Listas, Filas e Pilhas](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-05-estrutura-de-dados1-arrays-listas-filas-e-pilhas)
 - [ ] 5.1 - Arquitetura de Computadores
 - [ ] 5.2 - Arrays
 - [ ] 5.3 - Nó e Listas Encadeadas
 - [ ] 5.4 - Pilhas e Filas
 - [ ] 5.4 - Projeto - TING - Trybe Is Not Google
 
-#### Bloco 6: [Estrutura de Dados II: Hashmaps e Sets] (https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-06-estrutura-de-dados2-hashmaps-e-sets)
+#### Bloco 6: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-06-estrutura-de-dados2-hashmaps-e-sets)
 - [ ] 6.1 - Hashmap e Dict
 - [ ] 6.2 - Set
 - [ ] 6.3 - Projeto - Restaurant Orders
