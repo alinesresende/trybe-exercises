@@ -104,7 +104,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 #### Bloco 8: [Projeto Jogo de Trivia](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-08-Projeto-Jogo-de-Trivia)
 - [ ] 8.1 - Projeto - Jogo de Trivia
 
-##### Bloco 09: [Context API e React Hooks](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-09-context-api-e-react-hooks)
+##### Bloco 9: [Context API e React Hooks](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-09-context-api-e-react-hooks)
 - [ ] 9.1 - Context API do React
 - [ ] 9.2 - React Hooks - useState e useContext
 - [ ] 9.3 - React Hooks - useEffect e Hooks customizados
@@ -123,7 +123,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 2.2 - Encontrando dados em um banco de dados
 - [ ] 2.3 - Filtrando dados de forma específica
 - [ ] 2.4 - Manipulando tabelas
-- [ ] 5.5 - Projeto - All For One
+- [ ] 2.5 - Projeto - All For One
 
 ##### Bloco 3: [Funções SQL, Joins e Subqueries](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-03-funcoes-sql-joins-e-normalizacao)
 - [ ] 3.1 - Funções mais usadas no SQL
@@ -169,7 +169,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 9.3 - Polimorfismo
 - [ ] 9.4 - SOLID - Introdução e Princípios S, O e D
 - [ ] 9.5 - SOLID - Princípios L e I
-- [ ] 9.1 - Projeto - Trybers and Dragons
+- [ ] 9.6 - Projeto - Trybers and Dragons
 
 #### Bloco 10: [Projeto - TFC - Trybe Futebol Clube](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-10-Projeto-tfc-trybe-futebol-clube)
 - [ ] 10.1 - Projeto - TFC - Trybe Futebol Clube
@@ -178,9 +178,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 11.1 - MongoDB - Introdução
 - [ ] 11.2 - Filter Operators
 - [ ] 11.3 - Operadores de consulta
-- [ ] 12.4 - Updates Simples
-- [ ] 12.5 - Updates Complexos - Arrays
-- [ ] 12.6 - Projeto - Commerce
+- [ ] 11.4 - Updates Simples
+- [ ] 11.5 - Updates Complexos - Arrays
+- [ ] 11.6 - Projeto - Commerce
 
 ##### Bloco 12: [MongoDB com Node.js e POO](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-12-mongodb-em-nodejs-e-poo)
 - [ ] 12.1 - Mongoose e arquitetura MSC (Camada Model)
@@ -195,7 +195,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 14.2 - Dia 2
 
 ## Ciência da Computação :hourglass_flowing_sand:
-
 
 #### Bloco 1: [Introdução à Python](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-01-introducao-a-python)
 - [ ] 1.1 - Aprendendo Python
