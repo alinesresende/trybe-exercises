@@ -3,7 +3,13 @@ h1, p {
 }
 
 li:hover{
-    color: rgb(173, 226, 173);
+    background-color: rgb(100, 177, 100);
 }
 
-li:active{}
+li:active{
+    background-color:rgb(245, 121, 121);
+}
+
+.list {
+    list-style: none;
+}
