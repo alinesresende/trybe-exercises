@@ -1,0 +1,8 @@
+div:hover{
+    border-radius: 10px;
+    background-color: green;
+}
+
+div:nth-child(odd){
+    background-color: red;
+}
