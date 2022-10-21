@@ -92,3 +92,18 @@ if (notaDada < 0 || notaDada > 100) {
 } else if (notaDada <50) {
   console.log('F')
 }
+
+// Utilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. 
+// Caso contrário, ele deve retornar false.
+// Bonus: use somente um if.
+
+const oneNumber = 10
+const twoNumber = 9
+const threeNumber= 3
+
+
+if (oneNumber % 2 === 0 || twoNumber % 2 === 0 || threeNumber % 2 === 0) {
+  console.log('true')
+} else {
+  console.log('false')
+}
