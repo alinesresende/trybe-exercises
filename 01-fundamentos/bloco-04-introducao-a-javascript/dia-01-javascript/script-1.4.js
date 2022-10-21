@@ -107,3 +107,17 @@ if (oneNumber % 2 === 0 || twoNumber % 2 === 0 || threeNumber % 2 === 0) {
 } else {
   console.log('false')
 }
+
+// Utilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. 
+// Caso contrário, ele deve retornar false.
+// Bonus: use somente um if.
+
+const oneNumber = 10
+const twoNumber = 6
+const threeNumber= 2
+
+if (oneNumber % 2 !== 0 || twoNumber % 2 !== 0 || threeNumber % 2 !== 0) {
+  console.log('true')
+} else {
+  console.log('false')
+}
