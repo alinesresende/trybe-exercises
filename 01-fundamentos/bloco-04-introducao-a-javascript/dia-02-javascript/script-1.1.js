@@ -6,3 +6,10 @@ for (let index = 0; index < groceryList.length; index +=1) {
   console.log(groceryList[index])
 }
 
+// Utilize o for/of para imprimir os elementos da lista names com o console.log():
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (let nome of names) {
+  console.log(nome)
+}
