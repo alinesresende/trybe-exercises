@@ -30,3 +30,8 @@ function verificaPalindrome(string) {
 
 console.log(verificaPalindrome('arara')); //true
 console.log(verificaPalindrome('desenvolvimento')); //false
+
+
+const fruits = ['Apple', 'Banana'];
+const fruitsString = fruits.join(', ');
+console.log(fruitsString);
