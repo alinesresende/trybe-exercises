@@ -41,21 +41,44 @@
         <p>Trybe</p>
       </section>
     </main>
-    <script>
-      function alteraText(){
+    <script> 
+      function alteraText() {
         let paragraphTwo = document.getElementsByTagName('p')[1];
         paragraphTwo.innerHTML = 'Daqui a 2 anos me vejo como desenvolvedora Pleno, trabalhando na griga e ganhando em dólar';
       };
       alteraText();
-      
-      // const paragraphTwo = document.getElementsByTagName('p')[1].innerText = 'Daqui a 2 anos me vejo como desenvolvedora Pleno, trabalhando na griga e ganhando em dólar';
-      // const corpo = document.getElementsByClassName('main-content')[0];
-      // corpo.style.backgroundColor = 'rgb(76,164,109)';
-      // const corpoMeio = document.getElementsByClassName('center-content')[0];
-      // corpoMeio.style.backgroundColor = 'white';
-      // const header = document.getElementsByTagName('h1')[0].innerText = 'Corrigindo o texto da tag h1';
-      // const paragraphOne = document.getElementsByTagName('p')[0].innerHTML.toUpperCase();
-    
+
+      function alteraCor() {
+        let corpo = document.getElementsByClassName('main-content')[0];
+        corpo.style.backgroundColor = 'rgb(76,164,109)';
+      };
+      alteraCor();
+
+      function alteraCorMeio() {
+        let corMeio = document.getElementsByClassName('center-content')[0];
+        corMeio.style.backgroundColor = 'white';
+      };
+      alteraCorMeio();
+
+      function alteraTitle() {
+        let header = document.getElementsByTagName('h1')[0];
+        header.innerHTML = 'Corrigindo o texto da tag h1';
+      };
+      alteraTitle();
+
+      function alteraFistTag() {
+        let paragraphOne = document.getElementsByTagName('p')[0];
+        paragraphOne.innerHTML = paragraphOne.innerHTML.toUpperCase();
+      };
+      alteraFistTag();
+
+      function exibirTag() {
+        let exibirConteudo = document.getElementsByTagName('p');
+        for (let index = 0; index < exibirConteudo.length; index += 1) {
+        console.log(exibirConteudo[index].innerHTML);
+        }
+      }
+      exibirTag();
         /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
