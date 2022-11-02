@@ -21,20 +21,31 @@
   </main>
   <script>
     const fistElement = document.getElementById('elementoOndeVoceEsta');
+
     const father = elementoOndeVoceEsta.parentElement;
     father.style.color = 'blue';
+
     const elementChild = elementoOndeVoceEsta.firstElementChild;
     elementChild.innerText = 'Adicionando um texto conforme proposto pelo exercício.';
+
     const firstChild = father.firstElementChild;
-    
+
+    const firstChildTwo = elementoOndeVoceEsta.previousElementSibling;
+
+    const textElement = elementoOndeVoceEsta.nextSibling;
+
+    const firstChildThree= elementoOndeVoceEsta.nextElementSibling;
+
+    const threeChildTwo = father.lastElementChild.previousElementSibling;
+
   </script>
 </body>
 </html>
-<!-- Acesse o elemento elementoOndeVoceEsta.
-Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
-Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
-Acesse o primeiroFilho a partir de pai.
-Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+<!-- Acesse o elemento elementoOndeVoceEsta. ok
+Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele. ok
+Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso? ok
+Acesse o primeiroFilho a partir de pai. ok
+Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta. ok
 Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
 Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 Agora acesse o terceiroFilho a partir de pai. -->
