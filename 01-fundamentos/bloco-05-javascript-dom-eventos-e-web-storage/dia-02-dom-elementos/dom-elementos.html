@@ -20,6 +20,12 @@
     </section>
   </main>
   <script>
+    const fistElement = document.getElementById('elementoOndeVoceEsta');
+    const father = elementoOndeVoceEsta.parentElement;
+    father.style.color = 'blue';
+    const elementChild = elementoOndeVoceEsta.firstElementChild;
+    elementChild.innerText = 'Adicionando um texto conforme proposto pelo exercício.';
+    const firstChild = father.firstElementChild;
     
   </script>
 </body>
