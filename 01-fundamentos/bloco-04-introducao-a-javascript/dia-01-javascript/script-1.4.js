@@ -56,11 +56,11 @@ if (valorRecebido > 0) {
 //Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus.
 // Um ângulo será considerado inválido se não tiver um valor positivo.
 
-const aA = 60;
-const bB = 60;
-const cC = 60;
+const a = 60;
+const b = 60;
+const c = 60;
 
-if ((aA <= 0 || bB <=0 || cC <= 0) || (aA + bB + cC != 180)){
+if ((a <= 0 || b <=0 || c <= 0) || (a + b + c != 180)){
   console.log('inválido')
 } else {
   console.log('válido')
