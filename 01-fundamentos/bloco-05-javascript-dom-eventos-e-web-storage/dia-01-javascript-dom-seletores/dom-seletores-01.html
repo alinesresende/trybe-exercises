@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafoItem">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafoItem">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const titulo = document.getElementById("page-title").innerText = "A última Música";
+      const paragraph = document.getElementById("paragraph").style.cssText = "color: blue";
+      const subtitle = document.getElementById("subtitle").innerText = "Exercício feito";
+      const paragrafo = document.getElementsByClassName("paragrafoItem")[0].style.cssText = "color: green";
+      const elementTag = document.getElementsByTagName("h4")[0].style.cssText = "color: red";
+    </script>
+  </body>
+</html>
+
+<!-- Exercício 01: Recupere o elemento que contém o título da página e faça algo com ele, por exemplo alterá-lo para o nome do seu filme favorito.
+Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+Por fim, recupere o subtítulo e altere-o também. -->
+
+<!-- Exerício 02: Adicione uma classe igual para os dois parágrafos;
+Recupere os seus parágrafos via código JavaScript, usando a função getElementsByClassName;
+Altere algum estilo do primeiro deles;
+Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName. -->
+
+<!-- Enquanto os getElementsByClassName('ClassName') e getElementsByTagName('TagName') retornam uma HTMLCollection,
+ os querySelectorAll('.ClassName') e querySelectorAll('TagName') retornam uma NodeList. -->
