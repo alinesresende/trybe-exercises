@@ -11,40 +11,46 @@
     <h1>Formulário</h1>
   </header>
   <main>
-    <section>
-      <label for="input-name">Nome:</label>
-      <input type="text" name="name" id="input-name"> <br>
-      <label for="input-email">Email:</label>
-      <input type="email" name="email" id="input-email">
-    </section>
-    <section>
-      <label for="opone">Opção 1</label>
-      <input type="radio" name="radio" id="opone">
-      <label for="optwo">Opção 2</label>
-      <input type="radio" name="radio" id="optwo">
-      <label for="opthree">Opção 3</label>
-      <input type="radio" name="radio" id="opthree">
-      <label for="opfour">Opção 4</label>
-      <input type="radio" name="radio" id="opfour">
-    </section>
-    <section>
-      <label for="textarea">Espaço para digitar a resposta:</label> <br>
-      <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-    </section>
-    <section>
-      <label for="input-date">Data:</label>
-      <input type="date" name="date" id="input-date">
-    </section>
-    <section>
-      <label for="input-checkbox1">Concordo 1</label>
-      <input type="checkbox" name="checkbox" id="input-checkbox1"> <br>
-      <label for="input-checkbox2">Concordo 2</label>
-      <input type="checkbox" name="checkbox" id="input-checkbox2">
-    </section>
+    <form>
+      <section>
+        <label for="input-name">Nome Completo:</label>
+        <input type="text" name="name" id="input-name" placeholder="Digite seu nome completo" maxlength="40"
+          minlength="10" required> <br>
+        <label for="input-email">Endereço de e-mail:</label>
+        <input type="email" name="email" id="input-email" placeholder="Digite seu e-mail" maxlength="50" minlength="10"
+          required>
+      </section>
+      <section>
+        <input type="radio" name="radio" id="opone">
+        <label for="opone">Florianopólis</label>
+        <input type="radio" name="radio" id="optwo">
+        <label for="optwo">Minas Gerais</label>
+        <input type="radio" name="radio" id="opthree">
+        <label for="opthree">Rio de Janeiro</label>
+        <input type="radio" name="radio" id="opfour">
+        <label for="opfour">Brasilia</label>
+      </section>
+      <section>
+        <label for="textarea">Espaço para digitar a resposta:</label> <br>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+      </section>
+      <section>
+        <label for="input-date">Data:</label>
+        <input type="date" name="date" id="input-date">
+      </section>
+      <section>
+        <label for="input-checkbox1">Concordo 1</label>
+        <input type="checkbox" name="checkbox" id="input-checkbox1"> <br>
+        <label for="input-checkbox2">Concordo 2</label>
+        <input type="checkbox" name="checkbox" id="input-checkbox2">
+      </section>
   </main>
-  <footer>
-    <button>Enviar</button>
-    <button>Enviar</button>
+    <footer>
+      <button>Enviar</button>
+      <button>Enviar</button>
   </footer>
+    </form>
 </body>
-</html>
+
+  </html>
+  
