@@ -27,20 +27,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4.1 - Introdução - JavaScript
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
-- [ ] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [X] 4.4 - JavaScript - Objetos e funções
+- [X] 4.5 - Projeto - Playground Functions
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 
-- [ ] 5.1 - JavaScript - DOM e seletores
-- [ ] 5.2 - JavaScript - Trabalhando com elementos
-- [ ] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Projetos Bônus
+- [X] 5.1 - JavaScript - DOM e seletores
+- [X] 5.2 - JavaScript - Trabalhando com elementos
+- [X] 5.3 - JavaScript - Eventos
+- [X] 5.4 - JavaScript - Web Storage
+- [X] 5.5 - Projetos Pixel Art
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
-- [ ] 6.1 - HTML & CSS - Forms
+- [X] 6.1 - HTML & CSS - Forms
 - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 6.3 - CSS Flexbox - Parte 2
 - [ ] 6.3 - CSS Flexbox - Parte 2
