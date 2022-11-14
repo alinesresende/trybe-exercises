@@ -6,7 +6,6 @@
     <title>Formulario-TrybeTrip</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <h1>Concorra à Viagem dos seus sonhos com a TrybeTrip</h1>
@@ -22,21 +21,21 @@
         <br/>
 
         <label for="destination1">Cidade</label>
-        <input type="radio" id="destination1" className="radios" name="destinations" value="Cidade" required>
+        <input type="radio" id="destination1" class="form-check-input"  className="radios" name="destinations" value="Cidade" required>
 
         <label for="destination2">Campo</label>
-        <input type="radio" id="destination2" className="radios" name="destinations" value="Campo" required>
+        <input type="radio" id="destination2" class="form-check-input"  className="radios" name="destinations" value="Campo" required>
 
         <label for="destination3">Praia</label>
-        <input type="radio" id="destination3" className="radios" name="destinations" value="Praia" required>
+        <input type="radio" id="destination3" class="form-check-input"  className="radios" name="destinations" value="Praia" required>
 
         <label for="destination4">Montanhas</label>
-        <input type="radio" id="destination4" className="radios" name="destinations" value="Montanhas" required>
+        <input type="radio" id="destination4" class="form-check-input"  className="radios" name="destinations" value="Montanhas" required>
         <br/>
 
-        <label for="why">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
+        <label for="why" class="form-label">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
         <br/>
-        <textarea name="why" id="why" cols="60" rows="10" placeholder="Digite sua resposta vencedora aqui"></textarea>
+        <textarea name="why" id="why" class="form-control" cols="60" rows="10" placeholder="Digite sua resposta vencedora aqui"></textarea>
         <br/>
 
         <label for="date">Qual a melhor data para realizar sua viagem?</label>
