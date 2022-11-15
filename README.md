@@ -41,9 +41,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [X] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6.3 - CSS Flexbox - Parte 2
-- [ ] 6.3 - CSS Flexbox - Parte 2
+- [X] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [X] 6.3 - CSS Flexbox - Parte 2
+- [X] 6.3 - CSS Flexbox - Parte 2
 - [ ] 6.5 - CSS Responsivo - Mobile First
 - [ ] 6.6 - Projeto - Trybewarts
 
