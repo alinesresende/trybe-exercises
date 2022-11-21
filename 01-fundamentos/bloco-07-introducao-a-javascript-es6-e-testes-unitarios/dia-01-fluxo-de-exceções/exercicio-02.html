@@ -47,7 +47,7 @@
 const customerInfo = (order) => {
   const address = 'address'; // Armazenando a palavra 'address' em uma variável
   const deliveryPerson = order.order.delivery.deliveryPerson; // Acesse e armazene a chave `deliveryPerson` em uma variável através de 'notação de ponto'.
-  const customerName = order['name']; // Acesse e armazene a chave `name` em uma variável através de 'notação de chaves'.
+  const customerName = order.name; // Acesse e armazene a chave `name` em uma variável através de 'notação de chaves'.
   const customerPhone = order['phoneNumber']; // Acesse e armazene a chave `phoneNumber` em uma variável através de 'notação de chaves'.
   const street = order[address].street; // Acesse e armazene a chave `street` em uma variável, através de 'notação de chaves' e 'notação de ponto'.
   const number = order[address].number; // Acesse e armazene a chave `number` em uma variável, através de 'notação de chaves' e 'notação de ponto'.
@@ -55,15 +55,21 @@ const customerInfo = (order) => {
 
   console.log(`Olá ${deliveryPerson}, entrega para: ${customerName}, Telefone: ${customerPhone}, R. ${street}, Nº: ${number}, AP: ${apartment}`);
 };
-
 customerInfo(order);
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
+  const altName = order.name = 'aline resende';
+  const altPay = order.payment.total = '10';
+  const pizzas = Object.keys(order.order.pizza);
+  const typeCoko = order.order.drinks.coke.type;
+
+  console.log(`Olá ${altName}, o total do seu pedido de ${pizzas[0]}, ${pizzas[1]} e ${typeCoko} é R$ ${altPay},00.`);
 
 };
-
 orderModifier(order);
+
+
+
   </script>
 </body>
 </html>
