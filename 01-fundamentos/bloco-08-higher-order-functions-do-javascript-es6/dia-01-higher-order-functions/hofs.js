@@ -1,4 +1,5 @@
 // Exercícios parte I
+// 1 - Nova pessoa contratada
 
 const pessoaContratada = (nome) => {
   return { Nome: nome, email: `${nome}@trybe.com` };
@@ -13,5 +14,17 @@ const newEmployees = (pessoaContratada) => {
   return employees;
 };
 console.log(newEmployees(pessoaContratada));
+
+
+// 2- Sorteador de loteria
+
+// const sorteio = () => {
+
+// }
+
+// Math.floor(Math.random() * 5 + 1)
+// sorteio.forEach(element => {
+  
+// });
 
 
