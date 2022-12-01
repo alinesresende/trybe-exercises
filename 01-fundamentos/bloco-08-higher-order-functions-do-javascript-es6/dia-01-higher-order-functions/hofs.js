@@ -35,6 +35,23 @@ console.log(resultadoSorteio(2, checkNumbers));
 
 // Corretor automático de exame
 
+const respostaCertas = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const respostaEstudante = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const corretorAutomatico = (respostaCorretas, respostaEstudantes, checkRespostas) => {
+  let pontos = 0;
+
+}
+
+const checkRespostas = (respostaCorretas, respostaEstudantes) => {
+  if (respostaCorretas === respostaEstudantes) {
+    return 1;
+  } if (respostaEstudantes === 'N.A') {
+    return 0;
+  } if (respostaEstudantes !== respostaCorretas) {
+    return -0.5;
+  }
+}
 
 
 
