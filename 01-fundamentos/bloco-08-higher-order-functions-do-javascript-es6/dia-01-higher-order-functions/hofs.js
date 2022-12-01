@@ -18,13 +18,25 @@ console.log(newEmployees(pessoaContratada));
 
 // 2- Sorteador de loteria
 
-// const sorteio = () => {
+const checkNumbers = (numeroApostado, numeroAlteratorio) => {
+  if (numeroApostado === numeroAlteratorio) {
+    return 'Parabéns, você ganhou!';
+  } else {
+    return 'Tente novamente!';
+  }
+};
 
-// }
+const resultadoSorteio = (numeroApostado, checkNumbers) => {
+  const numeroAlteratorio = Math.floor(Math.random() * 5);
+  return checkNumbers(numeroApostado, numeroAlteratorio)
+};
+console.log(resultadoSorteio(2, checkNumbers));
 
-// Math.floor(Math.random() * 5 + 1)
-// sorteio.forEach(element => {
+
+
+
+
   
-// });
+
 
 
