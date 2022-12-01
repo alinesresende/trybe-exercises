@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const lesson1 = {
+  materia: 'Matemática',
+  numeroEstudantes: 20,
+  professor: 'Maria Clara',
+  turno: 'manhã',
+};
+
+const lesson2 = {
+  materia: 'História',
+  numeroEstudantes: 20,
+  professor: 'Carlos',
+};
+
+const lesson3 = {
+  materia: 'Matemática',
+  numeroEstudantes: 10,
+  professor: 'Maria Clara',
+  turno: 'noite',
+};
+
+function adicionaLessons2(objeto, chave, valor) {
+  objeto[chave] = valor;
+  return objeto
+}
+
+adicionaLessons2(lesson2, 'turno', 'noite');
+const retornoDaFuncao = adicionaLessons2(lesson2, 'turno', 'noite')
+console.log(retornoDaFuncao);
+
+  </script>
+</body>
+</html>
