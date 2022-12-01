@@ -33,6 +33,8 @@ const resultadoSorteio = (numeroApostado, checkNumbers) => {
 console.log(resultadoSorteio(2, checkNumbers));
 
 
+// Corretor automático de exame
+
 
 
 
