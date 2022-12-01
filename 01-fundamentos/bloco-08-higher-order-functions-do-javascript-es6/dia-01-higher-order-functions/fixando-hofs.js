@@ -20,7 +20,9 @@ const pessoasTwo = [
   { nome: 'João', idade: 32 },
   { nome: 'Aline', idade: 28 },
 ];
-pessoasTwo.find((pessoa) => console.log(pessoa.nome === 'Aline'));
+const pessoas2 = pessoasTwo.find((pessoas) => 
+  pessoas.idade < 30);
+console.log(pessoas2)
 
 // Exemplo Some()
 // Retorna: boolean true ou false (algum elemento satisfaz?)
@@ -34,3 +36,17 @@ const pessoasThree = [
 ];
 
 pessoasThree.some((pessoa) => console.log(pessoa.idade > 30));
+
+//Exemplo Every()
+// Retorna: boolean true ou false (se TODOS elemento satisfaz?)
+// Espera: boolean true ou false
+
+
+const pessoasFour = [
+  { nome: 'Joana', idade: 37 },
+  { nome: 'Ana', idade: 25 },
+  { nome: 'João', idade: 32 },
+  { nome: 'Aline', idade: 28 },
+];
+
+pessoasFour.every((pessoa) => console.log(pessoa.idade === 30));
