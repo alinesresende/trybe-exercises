@@ -20,8 +20,8 @@ const pessoasTwo = [
   { nome: 'João', idade: 32 },
   { nome: 'Aline', idade: 28 },
 ];
-const pessoas2 = pessoasTwo.find((pessoas) => 
-  pessoas.idade < 30);
+const pessoas2 = pessoasTwo.find((pessoa) => 
+  pessoa.idade < 30);
 console.log(pessoas2)
 
 // Exemplo Some()
