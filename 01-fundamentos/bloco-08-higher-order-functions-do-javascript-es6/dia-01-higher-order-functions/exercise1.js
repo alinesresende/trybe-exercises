@@ -107,3 +107,34 @@ const getNamedBook = () => {
   return livroAchado;
 };
 getNamedBook();
+
+// Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
+const expectedResult4 = false;
+
+function everyoneWasBornOnSecXX() {
+ const nascimentoXX = books.every((livro) => {
+    return livro.author.birthYear > 1900 && livro.author.birthYear < 2000})
+  return nascimentoXX;
+};
+everyoneWasBornOnSecXX();
+
+// Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
+const expectedResult5 = true;
+
+const someBookWasReleaseOnThe80s = () => {
+ const anoLancamento = books.some((livro) => {
+    return livro.releaseYear > 1800 && livro.releaseYear < 1990
+  })
+  return anoLancamento;
+};
+someBookWasReleaseOnThe80s();
+
+// Faça uma função que retorne true, caso nenhuma pessoa autora tenha nascido no mesmo ano, e false, caso contrário.
+const expectedResult6 = false;
+
+const authorUnique = () => {
+  return books.every((book) =>
+  !books.some((bookSome) =>
+    (bookSome.author.birthYear === book.author.birthYear)
+    && (bookSome.author.name !== book.author.name)));
+};
