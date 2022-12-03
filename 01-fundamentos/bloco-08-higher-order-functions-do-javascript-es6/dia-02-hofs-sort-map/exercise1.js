@@ -79,7 +79,7 @@ const formatedBookNames = () => {
   })
   return newArray;
 };
-console.log(formatedBookNames())
+formatedBookNames();
 
 // Exemplo retornando objeto:
 const formatedBookNames2 = () => {
@@ -90,4 +90,89 @@ const formatedBookNames2 = () => {
     })
     return newArray;
 };
-console.log(formatedBookNames2())
+formatedBookNames2();
+
+// Crie um array com strings no formato NOME_DA_PESSOA_AUTORA - DATA DE NASCIMENTO
+
+const expectedResult3 = [
+  'George R. R. Martin - 1948',
+  'J. R. R. Tolkien - 1892',
+  'Isaac Asimov - 1920',
+  'Frank Herbert - 1920',
+  'Stephen King - 1947',
+  'H. P. Lovecraft - 1890',
+];
+
+const formatedAuthorNamesBirth = () => {
+  const nomeIdade = books.map((livro) => {
+    return `${livro.author.name} - ${livro.author.birthYear}`
+  })
+  return nomeIdade;
+};
+formatedAuthorNamesBirth();
+
+// Construa um array de objetos a partir do array de livros.
+
+const expectedResult5 = [
+  {
+    author: 'Isaac Asimov',
+    age: 31,
+  },
+  {
+    author: 'H. P. Lovecraft',
+    age: 38,
+  },
+  {
+    author: 'Stephen King',
+    age: 39,
+  },
+  {
+    author: 'George R. R. Martin',
+    age: 43,
+  },
+  {
+    author: 'Frank Herbert',
+    age: 45,
+  },
+  {
+    author: 'J. R. R. Tolkien',
+    age: 62,
+  },
+];
+
+// Sort com NUMERO:
+const nameAndAge = () => {
+  const arrayObject = books.map((livro) => {
+    return {
+      author: livro.author.name,
+      age: livro.releaseYear - livro.author.birthYear,
+    }
+  })
+  const arraySorted = arrayObject.sort((a, b) => {
+    return a.age - b.age;
+  })
+  return arraySorted;
+};
+nameAndAg();
+
+// SORT como objeto:
+const nameAndAge2 = () => {
+  const arrayObject = books.map((livro) => {
+    return {
+      author: livro.author.name,
+      age: livro.releaseYear - livro.author.birthYear,
+    }
+  })
+  const arraySorted = arrayObject.sort((a, b) => {
+     if (a.author > b.author) {
+      return 1;
+    }
+    if (a.author < b.author) {
+      return -1;
+    }
+    return 0;
+  })
+  return arraySorted;
+};
+nameAndAge2();
+
