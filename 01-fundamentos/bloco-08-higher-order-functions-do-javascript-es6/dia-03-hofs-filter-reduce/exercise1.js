@@ -247,3 +247,38 @@ const booksByAuthorBirthYear = (birthYear) => {
 }
 const result = booksByAuthorBirthYear(1892);
 
+// 4 - Crie um array que possua apenas os nomes de todas as pessoas autoras de ficção científica ou fantasia e ordene por ordem alfabética.
+const expectedResult4 = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
+
+const fantasyOrScienceFictionAuthors = () => {
+  const newArray = books.filter((livro) => {
+    return livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia'
+  }).map((autor) => {
+    return autor.author.name
+  }).sort((a, b) => {
+    if (a > b) {
+    return 1;
+    }
+    if (a < b) {
+    return -1;
+    }
+    return 0;
+    });
+  return newArray;
+}
+fantasyOrScienceFictionAuthors();
+
+// sort((a, b) => {
+//   //   if (a.author.name > b.author.name) {
+//   //     return 1;
+//   //   }
+//   //   if (a.author.name < b.author.name) {
+//   //     return -1;
+//   //   }
+//   //   return 0;
+//   // });
