@@ -88,7 +88,6 @@ const relatorio = estudantes.map((estudante) => ({
     }
   }).name,
 }));
-console.log(relatorio);
 
 
 const books = [
@@ -192,7 +191,7 @@ const fantasyOrScienceFiction = () => {
   })
   return checkGenre;
 }
-console.log(fantasyOrScienceFiction());
+fantasyOrScienceFiction();
 
 // 2 - Filtre os livros com mais de 60 anos desde sua publicação e ordene a partir do livro mais velho para o mais novo.
 // Para acessar o ano atual, pesquise sobre “como resgatar o ano atual com JavaScript” e use as funções filter e sort.
@@ -232,5 +231,19 @@ const oldBooksOrdered = () => {
   })
   return mais60Anos;
 }
-console.log(oldBooksOrdered());
+oldBooksOrdered();
+
+// 3 - Faça uma função que retorne os nomes dos livros, dado o ano de nascimento das pessoas autoras.
+
+const expectedResult3 = [ 'Fundação', 'Duna' ];
+
+const booksByAuthorBirthYear = (birthYear) => { 
+  const returnName = books.filter((livro) => {
+    return livro.author.birthYear === birthYear
+  }).map((nomeLivro) => {
+    return nomeLivro.name
+  })
+  return returnName;
+}
+const result = booksByAuthorBirthYear(1892);
 
