@@ -197,5 +197,40 @@ console.log(fantasyOrScienceFiction());
 // 2 - Filtre os livros com mais de 60 anos desde sua publicação e ordene a partir do livro mais velho para o mais novo.
 // Para acessar o ano atual, pesquise sobre “como resgatar o ano atual com JavaScript” e use as funções filter e sort.
 
+const expectedResult2 = [
+  {
+    id: 6,
+    name: 'O Chamado de Cthulhu',
+    genre: 'Terror',
+    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
+    releaseYear: 1928,
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: { name: 'Isaac Asimov', birthYear: 1920 },
+    releaseYear: 1951,
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+    releaseYear: 1954,
+  },
+];
 
+  const dataAtual = new Date();
+  const anoAtual = dataAtual. getFullYear();
+
+const oldBooksOrdered = () => {
+  const mais60Anos = books.filter((livro) =>{
+    return anoAtual - livro.releaseYear > 60
+  }).sort((a, b) => {
+    return b.releaseYear - a.releaseYear
+  })
+  return mais60Anos;
+}
+console.log(oldBooksOrdered());
 
