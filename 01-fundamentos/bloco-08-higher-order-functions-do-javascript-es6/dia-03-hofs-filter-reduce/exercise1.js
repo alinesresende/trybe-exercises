@@ -289,3 +289,41 @@ const oldBooks = () => {
   return booksMais60Anos;
 }
 console.log(oldBooks())
+
+// 6 - Encontre o primeiro resultado cujo nome registrado começa com três iniciais e retorne o nome do livro.
+const expectedResult6 = 'O Senhor dos Anéis';
+
+const verificaSeStringTem3Pontos = (string) => {
+  let quantidadePontos = 0;
+  string.split('').forEach((caracter) => {
+    if (caracter === '.') {
+      quantidadePontos += 1;
+    }
+  })
+  if (quantidadePontos === 3) {
+    return true;
+  } else {
+    return false
+  }
+}
+
+const authorWith3DotsOnName = () => {
+  const caracter = books.filter((livro) => {
+    const esseAutorTem3Pontos = verificaSeStringTem3Pontos(livro.author.name)
+    return esseAutorTem3Pontos;
+  })
+  return caracter[0].name;
+}
+
+console.log(authorWith3DotsOnName())
+
+// Outra solução para exercício 6:
+
+const expectedResult7 = 'O Senhor dos Anéis';
+
+const authorWith3DotsOnName1 = () => {
+  return books.find((book) => (
+    book.author.name.split(' ')
+      .filter((word) => word.endsWith('.')).length === 3
+  )).name;
+}
