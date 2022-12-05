@@ -327,3 +327,4 @@ const authorWith3DotsOnName1 = () => {
       .filter((word) => word.endsWith('.')).length === 3
   )).name;
 }
+// finalizado
