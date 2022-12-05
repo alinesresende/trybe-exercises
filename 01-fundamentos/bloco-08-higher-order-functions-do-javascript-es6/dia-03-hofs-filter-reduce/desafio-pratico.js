@@ -118,3 +118,28 @@ const longestName = () => {
   return maiorPais;
 };
 longestName();
+
+// 4 - Retorne a quantidade de vezes que a letra "a" maiúscula ou minúscula aparece no array de nomes.
+// De olho na dica 👀: faça com que o array de nomes seja um array de letras.
+
+const names = [
+  'Aanemarie', 'Adervandes', 'Akifusa',
+  'Abegildo', 'Adicellia', 'Aladonata',
+  'Abeladerco', 'Adieidy', 'Alarucha',
+];
+
+const expectedResult4 = 20;
+
+const countA = () => {
+  const quantLetraA = names.reduce((acc, curr) => {
+   let quantNumerica = 0;
+  curr.split('').forEach((letra) => {
+  if (letra === 'A' || letra === 'a') {
+    quantNumerica += 1;
+  } 
+});
+ return acc + quantNumerica;
+ }, 0)
+ return quantLetraA;
+};
+countA();
