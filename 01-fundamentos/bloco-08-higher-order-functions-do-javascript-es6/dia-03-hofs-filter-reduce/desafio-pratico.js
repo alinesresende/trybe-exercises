@@ -171,4 +171,4 @@ const studentAverage = () => {
   });
   return newArray;
 };
-studentAverage():
+studentAverage();
