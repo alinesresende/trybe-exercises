@@ -1,7 +1,6 @@
 // Conteúdo Reduce
 
-// O reduce recebe dois parâmetros: o primeiro é uma callback, e o segundo parâmetro é um valor inicial (que é opcional).
-
+// O reduce recebe dois parâmetros: o primeiro é uma callback, e o segundo parâmetro é um valor inicial (que é opcional)
 // A sintaxe do reduce é a seguinte:
 array.reduce(callback, valorInicial);
 
@@ -13,6 +12,7 @@ array.reduce(callback, valorInicial);
 // Valor atual: que é o valor atual do item, a ser adicionado no acumulador;
 // Index atual: que é o index do item que está sendo iterado naquele momento;
 // Array: que é o array original.
+
 // Veja abaixo a estrutura completa do reduce:
 
 // Estrutura completa do reduce:
@@ -21,6 +21,8 @@ array.reduce((acumulador, valorAtual, indexAtual, array) => { "código" }, valor
 // IMPORTANTE: dos 4 parâmetros que a callback pode receber, apenas dois são obrigatórios: o acumulador e o valor atual.
 
 // Para trabalhar com a função reduce você deve ter algo parecido com o código abaixo:
+
+// escopo:
 array.reduce((acc, curr) => {
   // escopo de execução da função
 }, valorInicial);
@@ -94,3 +96,6 @@ const sum = (accumulator, number) => accumulator + number;
 const sumNumbers1 = (array) => array.filter(isEven).reduce(sum); // Olhe que código pequeno e conciso!
 
 console.log(sumNumbers1(numbers4)); // 152
+
+// A função do acumulador (acc) é guardar o retorno da callback a cada iteração, 
+// e a função do curr é acessar cada um dos valores do array.
