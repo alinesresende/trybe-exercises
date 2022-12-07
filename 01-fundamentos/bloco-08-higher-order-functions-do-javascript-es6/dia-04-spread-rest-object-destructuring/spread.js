@@ -1,1 +1,0 @@
-// Conteúdo de Spread
