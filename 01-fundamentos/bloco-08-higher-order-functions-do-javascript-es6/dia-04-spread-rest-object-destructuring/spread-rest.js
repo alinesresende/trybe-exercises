@@ -85,3 +85,12 @@ const countParams = (...args) => {
 console.log(countParams(0, 1, 2)); // Você passou 3 parâmetros para a função.
 console.log(countParams('string', null, [1, 2, 3], { })); // Você passou 4 parâmetros para a função.
 
+// Uma função que é responsável por somar a quantidade de produtos de um carrinho de compras:
+const sum = (...args) => args.reduce((accumulator, current) => accumulator + current, 0);
+console.log(sum(4, 7, 8, 9, 60)); // 88
+
+// Ao utilizar o rest, suas funções podem ficar mais flexíveis quando você precisa passar múltiplos parâmetros, 
+// pois não precisa especificar quantos argumentos a função irá receber!
+
+// DIFERENÇA:  O spread é responsável por espalhar valores, e ele pode ser utilizado para passar parâmetros ao EXECUTAR uma função. 
+// Já o rest pode ser utilizado para agrupar valores ao DECLARAR funções que podem receber múltiplos parâmetros.
