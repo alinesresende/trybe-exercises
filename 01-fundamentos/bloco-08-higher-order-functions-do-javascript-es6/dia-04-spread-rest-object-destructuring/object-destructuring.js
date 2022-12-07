@@ -68,7 +68,7 @@ console.log(classAssigned); // Turma B
 console.log(subject); // Matemática
 
 //  outra situação em que podemos usar a desestruturação de objetos é quando queremos passar os valores de um objeto como parâmetros para uma função, como no exemplo abaixo:
-const product = {
+const product1 = {
   name: 'Smart TV Crystal UHD',
   price: '1899.05',
   seller: 'Casas de Minas',
@@ -81,5 +81,25 @@ const printProductDetails = ({ name, price, seller }) => {
 printProductDetails(product); // Promoção! Smart TV Crystal UHD por apenas 1899.05 é só aqui: Casas de Minas
 // Passa a chava do obj como paramentro e na hora de executar a função chama o nome do objeto.
 
-// Exercício de fixação
+// Exercício de fixação:
+
+const user = {
+  name: 'Maria',
+  age: 21,
+  nationality: 'Brazilian',
+};
+
+const jobInfos = {
+  profession: 'Software engineer',
+  squad: 'Rocket Landing Logic',
+  squadInitials: 'RLL',
+};
+
+const newObject = {...user, ...jobInfos} // spread para junção dos objetos
+console.log(newObject)
+
+const newDestructuring = { name, age, nationality, profession, squad, squadInitials} = newObject; // desestruturação dos novo obj
+
+const textApresentacao = `A estudante ${name}, tem ${age} anos, com nacionalidade ${nationality}, atua como ${profession} na ${squad}.`;
+console.log(textApresentacao)
 
