@@ -1,9 +1,7 @@
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Aline](https://www.linkedin.com/in/aline-sresende/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+This repository contains all the learning activities developed by me while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
-
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+The course has more than 1,500 hours of classroom and online classes and covers introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies and soft skills.
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
