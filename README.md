@@ -5,7 +5,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-01-unix-e-bash)
 - [X] 1.1 - Unix & Bash - Parte 1
@@ -57,8 +57,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [X] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.5 - Projeto - Zoo functions
+- [X] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [X] 8.5 - Projeto - Zoo functions
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
