@@ -1,5 +1,6 @@
+## Activities and projects developed in the Trybe Course :rocket:
 
-This repository contains all the learning activities developed by me while studying at [Trybe](https://www.betrybe.com/) :rocket:
+This repository contains all the learning activities developed by me while studying at [Trybe](https://www.betrybe.com/).
 
 The course has more than 1,500 hours of classroom and online classes and covers introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies and soft skills.
 
