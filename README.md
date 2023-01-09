@@ -46,7 +46,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 6.6 - Project - Trybewarts
 
 ##### Block 7: [Introduction to JavaScript ES6 and Unit Testing](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
-- [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [X] 7.1 - JavaScript ES6 - let, const, arrow functions and template literals
 - [X] 7.2 - JavaScript ES6 - Objects
 - [X] 7.3 - Unit tests in JavaScript
 - [X] 7.4 - Project - JavaScript Unit Tests
