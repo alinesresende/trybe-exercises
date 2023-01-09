@@ -29,14 +29,14 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 4.4 - JavaScript - Objects and functions
 - [X] 4.5 - Project - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Events e Web Storage](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
+##### Bloco 5: [JavaScript: DOM, Events and Web Storage](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 - [X] 5.1 - JavaScript - DOM and selectors
 - [X] 5.2 - JavaScript - Working with elements
 - [X] 5.3 - JavaScript - Events
 - [X] 5.4 - JavaScript - Web Storage
 - [X] 5.5 - Project Pixel Art
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsive](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
+##### Bloco 6: [HTML e CSS: Forms, Flexbox and Responsive](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [X] 6.1 - HTML & CSS - Forms
 - [X] 6.2 - JavaScript Libraries and CSS Frameworks
 - [X] 6.3 - CSS Flexbox - Part 1
@@ -50,18 +50,18 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 7.3 - Unit tests in JavaScript
 - [X] 7.4 - Project - JavaScript Unit Tests
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
+##### Bloco 8: [Higher Order Functions from JavaScript ES6](https://github.com/alinesresende/trybe-exercicios/tree/main/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 - [X] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [X] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
+- [X] 8.2 - JavaScript ES6 - Higher Order Functions - map and filter
 - [X] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [X] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [X] 8.4 - JavaScript ES6 - spread operator, rest parameter, destructuring and more
 - [X] 8.5 - Projecy - Zoo functions
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 1: [JavaScript and Asynchronous Testing](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-01-javascript-e-testes-assincronos)
-- [ ] 1.1 - JavaScript Asynchronous e Callbacks
-- [ ] 1.2 - JavaScript Asynchronous - Fetch API e async/await
+- [ ] 1.1 - JavaScript Asynchronous and Callbacks
+- [ ] 1.2 - JavaScript Asynchronous - Fetch API and async/await
 - [ ] 1.3 - Jest - Asynchronous Tests
 - [ ] 1.4 - Project - Shopping cart
 
@@ -86,7 +86,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 
 ##### Bloco 6: [Automated Testing with React Testing Library](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-06-testes-automatizados-com-react-testing-library)
 - [ ] 6.1 - RTL - First steps
-- [ ] 6.2 - RTL - Mocks e Inputs
+- [ ] 6.2 - RTL - Mocks and Inputs
 - [ ] 6.3 - RTL - Testing React Router
 - [ ] 6.4 - Project - Tests in React
 
@@ -103,9 +103,9 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 
 ##### Bloco 9: [Context API e React Hooks](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-09-context-api-e-react-hooks)
 - [ ] 9.1 - Context API do React
-- [ ] 9.2 - React Hooks - useState e useContext
-- [ ] 9.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 9.4 - Project - StarWars Datatable com Context API e Hooks
+- [ ] 9.2 - React Hooks - useState and useContext
+- [ ] 9.3 - React Hooks - useEffect and custom Hooks
+- [ ] 9.4 - Project - StarWars Datatable with Context API and Hooks
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
