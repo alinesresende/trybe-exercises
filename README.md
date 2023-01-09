@@ -226,7 +226,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [ ] 5.4 - Project - TING - Trybe Is Not Google
 
 #### Block 6: [Data Structure II: Hashmaps and Sets](https://github.com/alinesresende/trybe-exercicios/tree/main/04-ciencia-da-computacao/bloco-06-estrutura-de-dados2-hashmaps-e-sets)
-- [ ] 6.1 - Hashmap e Dict
+- [ ] 6.1 - Hashmap and Dict
 - [ ] 6.2 - Set
 - [ ] 6.3 - Project - Restaurant Orders
 
