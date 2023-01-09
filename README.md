@@ -66,7 +66,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [ ] 1.4 - Project - Shopping cart
 
 ##### Block 2: [Introduction to React](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-02-introducao-ao-react)
-- [ ] 2.1 - 'Hello, world!' no React!
+- [ ] 2.1 - 'Hello, world!' in React!
 - [ ] 2.2 - Componentes React
 - [ ] 2.3 - Project - Solar System
 
