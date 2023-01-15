@@ -17,7 +17,7 @@ async function consultCep() { // async comes before the function
     if (data.erro) throw new Error('Erro de cep inválido');
 
     spaceCep.innerHTML = JSON.stringify(data);
-    return data;
+      return data;
   } catch (error) {
     Swal.fire('Ops', error.message, 'error');
   }
