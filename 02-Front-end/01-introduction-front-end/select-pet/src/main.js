@@ -8,29 +8,28 @@ buttonDog.addEventListener('click', imgDog)
 buttonCat.addEventListener('click', imgCat)
 buttonSuprise.addEventListener('click', imagSuprise)
 
-function imgDog() {
-  fetch('https://dog.ceo/api/breeds/image/random')
-    .then((response) => response.json())
-    .then((dados) => {
-      image.src = dados.message
-      spaceImg.appendChild(image)
-    })
+function createImg(link) {
+  spaceImg.appendChild(image)
+  image.style.width = '500px';
+  image.style.height = '500px';
+  image.src = link
+}
+
+async function imgDog() {
+  const response = await fetch('https://dog.ceo/api/breeds/image/random')
+  const dados = await response.json()
+  createImg(dados.message)
   }
 
-function imgCat() {
-  fetch('https://aws.random.cat/meow')
-  .then((response) => response.json())
-  .then((dados) => {
-    image.src = dados.file
-    spaceImg.appendChild(image)
-  })
+async function imgCat() {
+  const response = await fetch('https://aws.random.cat/meow')
+  const dados = await response.json()
+  createImg(dados.file)
 }  
 
-function imagSuprise() {
-  Promise.any([fetch('https://aws.random.cat/meow'), 
+async function imagSuprise() {
+  const response = await Promise.any([fetch('https://aws.random.cat/meow'), 
   fetch('https://dog.ceo/api/breeds/image/random')])
-  .then((response) => response.json())
-  .then((dados) => 
-  image.src = dados.file || dados.message)
-  spaceImg.appendChild(image)
+  const dados = await response.json()
+  createImg(dados.file || dados.message)
 }
