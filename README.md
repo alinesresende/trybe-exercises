@@ -61,9 +61,9 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 ## Front-end Development :hourglass_flowing_sand:
 
 ##### Block 1: [JavaScript and Asynchronous Testing](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-01-javascript-e-testes-assincronos)
-- [ ] 1.1 - JavaScript Asynchronous and Callbacks
-- [ ] 1.2 - JavaScript Asynchronous - Fetch API and async/await
-- [ ] 1.3 - Jest - Asynchronous Tests
+- [X] 1.1 - JavaScript Asynchronous and Callbacks
+- [X] 1.2 - JavaScript Asynchronous - Fetch API and async/await
+- [X] 1.3 - Jest - Asynchronous Tests
 - [ ] 1.4 - Project - Shopping cart
 
 ##### Block 2: [Introduction to React](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-02-introducao-ao-react)
