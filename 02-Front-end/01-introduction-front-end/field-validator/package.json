@@ -1,0 +1,16 @@
+{
+  "name": "field-validator",
+  "version": "1.0.0",
+  "description": "Create a field validator for email and CPF.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "npm"
+  },
+  "author": "Aline",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.7.0",
+    "vite": "^4.0.4"
+  }
+}
