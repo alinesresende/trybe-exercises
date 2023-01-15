@@ -8,7 +8,7 @@ const outputText = document.getElementById('return-text');
 button.addEventListener('click', (event) => {
   event.preventDefault();
   const field = {
-    cpf: validator.isTaxID(textField.value, 'en-US'),
+    cpf: validator.isTaxID(textField.value, 'pt-BR'),
     email: validator.isEmail(textField.value),
   };
   outputText.innerHTML = `Validation returned ${field[seletor.value]}`;
