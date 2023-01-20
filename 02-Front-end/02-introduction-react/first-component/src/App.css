@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  font-weight: 150;
+  text-align: center;
+}
+
+.Title {
+  background-color: rgba(128, 128, 128, 0.573);
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 700px;
+  
+}
