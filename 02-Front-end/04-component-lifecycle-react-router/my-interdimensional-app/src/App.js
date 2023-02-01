@@ -18,7 +18,7 @@ class App extends React.Component {
     })
   }
   render() {
-    // Desconstrução da chave characters = this.state para utilizar-la dentro do RETURN
+    // Desestruturação da chave characters = this.state para utilizar-la dentro do RETURN
     const { characters } = this.state;
     return (
       <div className="App">
@@ -26,7 +26,7 @@ class App extends React.Component {
           Ricky and Morty Characters:
         </h1>
         <div className="body">
-          {/* Como a chave do STATE characters já recebe o resultado da API, é possível acessar "name" para o nome do personagem e "image" para imagem nas TAG HTML */}
+          {/* Como a chave do STATE characters já recebe o resultado da API, é possível acessar "name" para o nome do personagem e "image" para imagem nas TAG HTML por meio de desestruturação */}
           {characters.map(({ name, image }) => {
             return (
               <div className="container" key={name}>
