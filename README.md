@@ -72,17 +72,17 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 2.3 - Project - Solar System
 
 ##### Block 3: [Stateful Components, Events, and Forms with React](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-03-componentes-com-estado-eventos-e-formularios-com-react)
-- [ ] 3.1 - Components with state and events
-- [ ] 3.2 - Forms in React
-- [ ] 3.3 - Project - Tryunfo
+- [X] 3.1 - Components with state and events
+- [X] 3.2 - Forms in React
+- [X] 3.3 - Project - Tryunfo
 
 ##### Block 4: [Component Lifecycle and React Router](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-04-ciclo-de-vida-de-componentes-e-react-router)
-- [ ] 4.1 - Component life cycle
-- [ ] 4.2 - React Router
-- [ ] 4.3 - Project - Trybe Tunes
+- [X] 4.1 - Component life cycle
+- [X] 4.2 - React Router
+- [X] 4.3 - Project - Trybe Tunes
 
 ##### Block 5: [Agile Methodologies](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-05-metodologias-ageis)
-- [ ] 5.1 - Agile Methodologies
+- [X] 5.1 - Agile Methodologies
 - [ ] 5.2 - Project - Frontend Online Store
 
 ##### Block 6: [Automated Testing with React Testing Library](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-06-testes-automatizados-com-react-testing-library)
