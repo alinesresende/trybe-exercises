@@ -37,7 +37,11 @@
         colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
         index: 0,
       };
+      // Reducer:
+      // É uma função JavaScript responsável por escrever no estado global, de acordo com a ação solicitada pela action.
     const reducer = (state = INITIAL_STATE, action) => {
+      // Action:
+      // É um objeto JavaScript que representa uma ação que precisa acontecer no estado global.
       switch(action.type) {
         case 'NEXT_COLOR':
           return {
@@ -53,11 +57,16 @@
           return state
       }
     }
+    // Store:
+    // É onde armazenamos o estado global da aplicação, representado por um objeto JavaScript.
     const store = Redux.createStore(reducer);
+    
     const btnPrevious = document.getElementById('previous');
     const btnNext = document.getElementById('next');
 
     btnPrevious.addEventListener('click', () => {
+      // Dispatch:
+      // É uma função que envia uma action para processamento
       store.dispatch({type: 'NEXT_COLOR'})
     })
 
