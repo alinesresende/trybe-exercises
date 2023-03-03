@@ -89,10 +89,10 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 6.1 - RTL - First steps
 - [X] 6.2 - RTL - Mocks and Inputs
 - [X] 6.3 - RTL - Testing React Router
-- [ ] 6.4 - Project - Tests in React
+- [X] 6.4 - Project - Tests in React
 
 ##### Block 7: [State Management with Redux](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-07-gerenciamento-de-estado-com-redux)
-- [ ] 7.1 - Introduction to Redux - The global state of the application
+- [X] 7.1 - Introduction to Redux - The global state of the application
 - [ ] 7.2 - Using Redux in React
 - [ ] 7.3 - Using Redux in React - Practice
 - [ ] 7.4 - Using Redux in React - Asynchronous Actions
