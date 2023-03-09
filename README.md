@@ -93,10 +93,10 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 
 ##### Block 7: [State Management with Redux](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-07-gerenciamento-de-estado-com-redux)
 - [X] 7.1 - Introduction to Redux - The global state of the application
-- [ ] 7.2 - Using Redux in React
-- [ ] 7.3 - Using Redux in React - Practice
-- [ ] 7.4 - Using Redux in React - Asynchronous Actions
-- [ ] 7.5 - Tests in React-Redux
+- [X] 7.2 - Using Redux in React
+- [X] 7.3 - Using Redux in React - Practice
+- [X] 7.4 - Using Redux in React - Asynchronous Actions
+- [X] 7.5 - Tests in React-Redux
 - [ ] 7.6 - Project - Trybe Walle
 
 #### Block 8: [Trivia Game Project](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-08-Projeto-Jogo-de-Trivia)
