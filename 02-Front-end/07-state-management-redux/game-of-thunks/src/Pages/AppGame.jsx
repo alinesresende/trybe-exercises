@@ -15,12 +15,6 @@ class AppGame extends Component {
   state = {
     nameCharacter: '',
   }
-  async componentDidMount() {
-    const { dispatch } = this.props;
-
-    dispatch(fetchApiGameOfThrones())
-  }
-
   handleClick = () => {
     const { dispatch } = this.props;
     const { nameCharacter } = this.state;
