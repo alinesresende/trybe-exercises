@@ -97,15 +97,15 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 7.3 - Using Redux in React - Practice
 - [X] 7.4 - Using Redux in React - Asynchronous Actions
 - [X] 7.5 - Tests in React-Redux
-- [ ] 7.6 - Project - Trybe Walle
+- [X] 7.6 - Project - Trybe Walle
 
 #### Block 8: [Trivia Game Project](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-08-Projeto-Jogo-de-Trivia)
-- [ ] 8.1 - Project - Trivia Game
+- [X] 8.1 - Project - Trivia Game
 
 ##### Block 9: [Context API e React Hooks](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-09-context-api-e-react-hooks)
-- [ ] 9.1 - Context API do React
-- [ ] 9.2 - React Hooks - useState and useContext
-- [ ] 9.3 - React Hooks - useEffect and custom Hooks
+- [X] 9.1 - Context API do React
+- [X] 9.2 - React Hooks - useState and useContext
+- [X] 9.3 - React Hooks - useEffect and custom Hooks
 - [ ] 9.4 - Project - StarWars Datatable with Context API and Hooks
 
 ## Back-end Development :hourglass_flowing_sand:
