@@ -58,7 +58,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [X] 8.4 - JavaScript ES6 - spread operator, rest parameter, destructuring and more
 - [X] 8.5 - Projecy - Zoo functions
 
-## Front-end Development :hourglass_flowing_sand:
+## Front-end Development :white_check_mark:
 
 ##### Block 1: [JavaScript and Asynchronous Testing](https://github.com/alinesresende/trybe-exercicios/tree/main/02-front-end/bloco-01-javascript-e-testes-assincronos)
 - [X] 1.1 - JavaScript Asynchronous and Callbacks
@@ -109,7 +109,7 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 - [x] 9.4 - Project - StarWars Datatable with Context API and Hooks
 
 ##### Block 10: [App Receitas](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/095ebb0d-1932-4d37-933b-9e1d721646fb/section/7b40bbcd-515e-4f16-b613-974e0200ff6c/day/77dba503-b3a2-47eb-8143-488e08b198b0/lesson/e5967a82-e6cc-4e3d-b8a3-052faab826e9)
-- [ ] 10 - Project - App Receitas
+- [X] 10 - Project - App Receitas
 
 ## Back-end Development :hourglass_flowing_sand:
 
