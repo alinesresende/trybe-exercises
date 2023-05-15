@@ -4,3 +4,7 @@ Qual é a função do código de status 400 e 422?
 O código de status HTTP 400 indica que o servidor não pode processar a solicitação do cliente devido a um erro do lado do cliente,
 como parâmetros inválidos ou mal formatados na solicitação. Isso geralmente indica que houve um erro no cliente 
 ou na solicitação feita pelo cliente e que a solicitação não pode ser processada como está.
+
+O código de status HTTP 422 indica que a solicitação foi entendida pelo servidor, 
+mas que não pode ser processada devido a erros de validação dos dados enviados na solicitação. 
+Isso pode ocorrer quando o servidor recebe dados inválidos, faltando informações necessárias ou em formato errado.
