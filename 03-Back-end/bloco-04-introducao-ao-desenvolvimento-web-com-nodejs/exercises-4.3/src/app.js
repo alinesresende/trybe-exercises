@@ -21,6 +21,9 @@ const getAllChocolates = async () => {
   return cacauTrybe.chocolates;
 };
 
+
+// GET /chocolates/total : Quantidade total de chocolates
+// Esse endpoint deve retornar a quantidade de tipos de chocolates que existem na base de dados, usando o seguinte contrato:
 app.get('/chocolates/total', async (req, res) => {
   const cacauTrybe = await readCacauTrybeFile();
   console.log(cacauTrybe)
