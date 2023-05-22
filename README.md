@@ -114,34 +114,34 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 ## Back-end Development :hourglass_flowing_sand:
 
 ##### Block 1: [Docker: Using Containers](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-01-docker-utilizando-containers)
-- [ ] 1.1 - Using Containers - Docker
-- [ ] 1.2 - Manipulating Images in Docker
-- [ ] 1.3 - Orchestrating Containers with Docker Compose
-- [ ] 1.4 - Project - Docker Todo-List
+- [X] 1.1 - Using Containers - Docker
+- [X] 1.2 - Manipulating Images in Docker
+- [X] 1.3 - Orchestrating Containers with Docker Compose
+- [X] 1.4 - Project - Docker Todo-List
 
 ##### Block 2: [Introduction to SQL](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-02-introdu%C3%A7%C3%A3o-SQL)
-- [ ] 2.1 - SQL database
-- [ ] 2.2 - Finding data in a database
-- [ ] 2.3 - Filtering data specifically
-- [ ] 2.4 - Manipulating tables
-- [ ] 2.5 - Project - All For One
+- [X] 2.1 - SQL database
+- [X] 2.2 - Finding data in a database
+- [X] 2.3 - Filtering data specifically
+- [X] 2.4 - Manipulating tables
+- [X] 2.5 - Project - All For One
 
 ##### Block 3: [SQL Functions, Joins and Subqueries](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-03-funcoes-sql-joins-e-normalizacao)
-- [ ] 3.1 - Most used functions in SQL
-- [ ] 3.2 - Uncomplicating JOINs and UNIONs
-- [ ] 3.3 - Stored Routines & Subqueries
-- [ ] 3.4 - Project - One For All
+- [X] 3.1 - Most used functions in SQL
+- [X] 3.2 - Uncomplicating JOINs and UNIONs
+- [X] 3.3 - Stored Routines & Subqueries
+- [X] 3.4 - Project - One For All
 
 ##### Block 4: [Introduction to web development with Node.js](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-04-introducao-ao-desenvolvimento-web-com-nodejs)
-- [ ] 4.1 - Node.js: Asynchronous Runtime
-- [ ] 4.2 - Node.js: API REST with  Express
-- [ ] 4.3 - Node.js: Integration Tests
-- [ ] 4.4 - Node.js: Express and Middlewares
-- [ ] 4.4 - Node.js: Express and MySQL
-- [ ] 4.4 - Project - Talker Manager
+- [X] 4.1 - Node.js: Asynchronous Runtime
+- [X] 4.2 - Node.js: API REST with  Express
+- [X] 4.3 - Node.js: Integration Tests
+- [X] 4.4 - Node.js: Express and Middlewares
+- [X] 4.4 - Node.js: Express and MySQL
+- [X] 4.4 - Project - Talker Manager
 
 ##### Block 5: [Software Architecture: Model, Service and Controller](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-05-arquitetura-de-software-model-service-e-controller)
-- [ ] 5.1 - Software Architecture: Model Layer
+- [X] 5.1 - Software Architecture: Model Layer
 - [ ] 5.2 - Software Architecture: Service Layer
 - [ ] 5.3 - Software Architecture: Controller Layer
 - [ ] 5.4 - Project - Store Manager
