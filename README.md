@@ -142,26 +142,24 @@ The course has more than 1,500 hours of classroom and online classes and covers 
 
 ##### Block 5: [Software Architecture: Model, Service and Controller](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-05-arquitetura-de-software-model-service-e-controller)
 - [X] 5.1 - Software Architecture: Model Layer
-- [ ] 5.2 - Software Architecture: Service Layer
-- [ ] 5.3 - Software Architecture: Controller Layer
-- [ ] 5.4 - Project - Store Manager
+- [X] 5.2 - Software Architecture: Service Layer
+- [X] 5.3 - Software Architecture: Controller Layer
+- [X] 5.4 - Project - Store Manager
 
 ##### Block 6: [Node.js: ORM and Authentication](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-06-nodejs-orm-e-autenticacao)
-- [ ] 6.1 - ORM - Application interface with the database
-- [ ] 6.2 - ORM - Associations 1:1 and 1:N
-- [ ] 6.3 - ORM - Associations N:N e Transactions
-- [ ] 6.4 - JWT - (JSON Web Token)
-- [ ] 6.4 - Project - API de Blogs
+- [X] 6.1 - ORM - Application interface with the database
+- [X] 6.2 - ORM - Associations 1:1 and 1:N
+- [X] 6.3 - ORM - Associations N:N e Transactions
+- [X] 6.4 - JWT - (JSON Web Token)
+- [X] 6.4 - Project - API de Blogs
 
 ##### Block 7: [Deployment](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-07-deployment)
-- [ ] 7.1 - Infrastructure - Deploy with Heroku
-- [ ] 7.2 - Deploy Docker & Heroku
-- [ ] 7.3 - Project- Stranger Things
+- [X] 7.1 - Infrastructure - Deploy with Heroku
 
 ##### Block 8: [Introduction to TypeScript](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-08-introducao-a-typescript)
-- [ ] 8.1 - Introduction to TypeScript
-- [ ] 8.2 - Static Typing and Generics
-- [ ] 8.3 - Express with TypeScript
+- [X] 8.1 - Introduction to TypeScript
+- [X] 8.2 - Static Typing and Generics
+- [X] 8.3 - Express with TypeScript
 - [ ] 8.4 - Project - Trybesmith
 
 ##### Block 9: [Object Oriented Programming (OOP) and SOLID](https://github.com/alinesresende/trybe-exercicios/tree/main/03-back-end/bloco-09-programacao-orientada-a-objetos-poo-e-solid)
